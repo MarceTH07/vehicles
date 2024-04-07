@@ -1,4 +1,12 @@
+# Exported from Render on 2024-04-07T19:27:32Z
 services:
-  - name: web
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py
+- type: web
+  name: vehicles
+  runtime: rust
+  repo: https://github.com/MarceTH07/vehicles
+  branch: main
+  plan: free
+  region: oregon
+  buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+  startCommand: streamlit run app.py
+version: "1"
