@@ -1,2 +1,2 @@
 # vehicles
-Este repositorio corresponde al repositorio del proyecto vehículos del sprin 5
+Este repositorio corresponde al  proyecto vehículos del sprin 5
